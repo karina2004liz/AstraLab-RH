@@ -1,17 +1,18 @@
-import React, {Component} from './node_modules/react';
+import React, { Component } from 'react';
 import firebase from './Firebase';
-import { Route, Link } from './node_modules/react-router-dom';
-import Home from './Home';
+import { Redirect, Link } from 'react-router-dom';
+
 
 class Vacancy extends Component {
-    console.log("hola");
-    render(){
-        return(
-            <div>
-                <p>Hola</p>
-            </div>
-           
-        )
-    }
+   
+    render() {
+       
+            return (
+                <section className="Vacancy">
+                  
+                </section>
+            )
+        }       
+    
 }
-    export default Vacancy;
+export default Vacancy;

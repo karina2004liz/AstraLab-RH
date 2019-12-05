@@ -1,19 +1,15 @@
-import React, {Component} from './node_modules/react';
+import React, {Component} from 'react';
 import firebase from './Firebase';
-import { Route, Link } from './node_modules/react-router-dom';
-import Vacancy from './Components/Vacancy';
-import Candidates from './Components/Candidates'
+import Vacancy from './Vacancy'
+import { Route, Link } from 'react-router-dom';
 
 class Home extends Component {
-    render(){
-        return(
-            <div>
-                <div> <p>Hola</p></div>
-                <Link className="Vacancy" to="/Vacancy">Vacancy</Link>
-                <Link className="Candidates" to="/Candidates">Candidates</Link>
-            </div>
-           
-        )
-    }
+	render () {
+		return (
+            <section className="home">
+			
+			</section>
+		)
+	}
 }
-    export default Home;
+export default Home;
