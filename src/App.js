@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import Home from './Home';
-import Vacancy from './Vacancy';
-import Candidates from './Candidates';
-import Junior from './Junior';
-import Middle from './Middle';
-import Senior from './Senior';
-import NoLevel from './NoLevel';
+import Home from './components/Home';
+import Vacancy from './components/Vacancy';
+import Candidates from './components/Candidates';
+import Junior from './components/Junior';
+import Middle from './components/Middle';
+import Senior from './components/Senior';
+import NoLevel from './components/NoLevel';
 import { BrowserRouter as Router, Route, HashRouter, Switch } from 'react-router-dom';
 class App extends Component {
 	render () {
