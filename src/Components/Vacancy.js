@@ -9,7 +9,7 @@ class Vacancy extends Component {
        
             return (
                 <section className="Vacancy">
-                  
+                  <p>Title</p><input></input>
                 </section>
             )
         }       

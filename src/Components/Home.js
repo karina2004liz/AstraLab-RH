@@ -7,7 +7,8 @@ class Home extends Component {
 	render () {
 		return (
             <section className="home">
-			<p>hola</p>
+			<Link to="./Vacancy">New vacancy</Link>
+			<Link to="./Candidates">Candidates</Link>
 			</section>
 		)
 	}
