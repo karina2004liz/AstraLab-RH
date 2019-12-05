@@ -7,7 +7,7 @@ class Home extends Component {
 	render () {
 		return (
             <section className="home">
-			
+			<p>hola</p>
 			</section>
 		)
 	}
