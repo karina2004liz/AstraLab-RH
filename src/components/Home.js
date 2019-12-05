@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import firebase from './Firebase';
-import Vacancy from './Vacancy'
+import HomeCss from './Home.css'
 import { Route, Link } from 'react-router-dom';
 
 class Home extends Component {
 	render () {
 		return (
             <section className="home">
-			<Link to="./Vacancy">New vacancy</Link>
-			<Link to="./Candidates">Candidates</Link>
+				<div className="link"><Link to="./Vacancy">New vacancy</Link></div>
+				<div className="link"><Link to="./Candidates">Candidates</Link></div>
 			</section>
 		)
 	}
