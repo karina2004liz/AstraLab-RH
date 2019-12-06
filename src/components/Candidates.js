@@ -18,7 +18,7 @@ class Candidates extends Component {
                         <div><Link to="/NoLevel"><img className="imgFilter" src={NoLevelIcon}></img></Link></div>
                     </div>
                     <div className="returnBtnContainer">
-                    <Link to="./home">
+                    <Link to="./">
                         <button className="returnBtn">RETURN</button>
                     </Link>
                     </div>
