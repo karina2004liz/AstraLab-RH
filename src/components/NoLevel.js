@@ -71,7 +71,7 @@ componentWillMount(){
 
           <div>
             
-          <div className="titlejunior" ><h1>No Level</h1></div>
+          <div className="titlejunior" ><h1>Awareness</h1></div>
           
 
           <div className="juniorDiv" >
@@ -113,7 +113,10 @@ componentWillMount(){
       
           </div>
 
-          <div><Link to="./Candidates">Return</Link></div>
+          <div><Link to="./Candidates">
+              
+              <button className = "btnRtnDataFilter">Return</button>
+              </Link></div>
 
           </div>
         )

@@ -4,8 +4,7 @@ table {
     border: 1px solid #ddd;
     margin-left: 10%;
     margin-right: 10%;
-
-  
+    margin-top: 50px;
     
   }
    
@@ -34,19 +33,36 @@ table {
   .titlejunior{
     
     width: 845px;
-    height: 142px;
+    height: 100px;
     left: 0px;
-    top: 86px;
-    
+    margin-top: 86px;
     background: #8346B4;
-    font-family: Electrolize;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 95px;
-text-align: right;
 
-color: #FFFFFF;
-padding: 10px;
-      
+    font-size: 25px;
+    line-height: 95px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 20px;
+        
   }
+
+.btnRtnDataFilter{
+
+    background: #04BF9D;
+    border: none;
+    border-radius: 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-align: center;
+    width: auto;
+    margin: 30px;
+
+}
+
+.btnRtnDiv{
+    float:right;
+    margin:5%;
+}
