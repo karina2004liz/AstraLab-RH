@@ -68,25 +68,54 @@ componentWillMount(){
 
     render(){
         return(
-            <div>
-                {this.state.candidates.map(can =>{
 
-                    if(can.test == "middle")
+          <div>
+            
+          <div className="titlejunior" ><h1>Middle</h1></div>
+          
 
-                    return(
-                        <div>
-                        <h1>Name: {can.name}</h1>
-                        <h2>Email: {can.email}</h2>
-                        <h2>English level: {can.levelenglish}</h2>
-                        <h3>Level Test: {can.test}</h3>
-                        </div>
-                    )
-                })
+          <div className="juniorDiv" >
 
-                }
+            
+          
+            <table class="flat-table">
+              <tbody>
+                <tr>
+                  <th>Name</th>
+                  <th>English Level</th>
+                  <th>Email</th>
+                  <th>Test Level</th>
+                </tr>
+                </tbody>
+            
+          
 
-        <div><Link to="./Candidates">Volver</Link></div>
-            </div>
+              {this.state.candidates.map(can =>{
+
+                  if(can.test == "middle")
+
+                  return(
+                      <tr>
+                          <th>{can.name}</th>
+                          <th>{can.levelenglish}</th>
+                          <th>{can.email}</th>
+                          <th>{can.test}</th>
+                      </tr>
+
+
+
+                  )
+              })
+
+              }
+              </table>
+
+      
+          </div>
+
+          <div><Link to="./Candidates">Return</Link></div>
+
+          </div>
         )
 
     }

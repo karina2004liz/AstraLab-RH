@@ -69,8 +69,15 @@ componentWillMount(){
     render(){
         return(
 
+          <div>
+            
+            <div className="titlejunior" ><h1>Junior</h1></div>
+            
 
-            <div>
+            <div className="juniorDiv" >
+
+              
+            
               <table class="flat-table">
                 <tbody>
                   <tr>
@@ -80,7 +87,7 @@ componentWillMount(){
                     <th>Test Level</th>
                   </tr>
                   </tbody>
-              </table>
+              
             
 
                 {this.state.candidates.map(can =>{
@@ -101,8 +108,13 @@ componentWillMount(){
                 })
 
                 }
+                </table>
 
-        <div><Link to="./Candidates">Return</Link></div>
+        
+            </div>
+
+            <div><Link to="./Candidates">Return</Link></div>
+
             </div>
         )
 
