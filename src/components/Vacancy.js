@@ -26,8 +26,8 @@ class Vacancy extends Component {
                     <img src={linkedinIcon}></img>
                   </div>
                   <div className="vacancyDiv">
-                    <Link to="./"><button  className="vacancyBtn">CANCEL</button></Link>
-                    <Link to="./"><button  className="vacancyBtn">POST</button></Link>
+                    <Link to="./home"><button  className="vacancyBtn">CANCEL</button></Link>
+                    <Link to="./home"><button  className="vacancyBtn">POST</button></Link>
                   </div>
                   
                 </section>
