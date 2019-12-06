@@ -17,10 +17,10 @@ class App extends Component {
 							<Route exact path="/" component={Home} />
 							<Route path="/Vacancy" component={Vacancy}/>
 							<Route path="/Candidates" component={Candidates}/>
-							<Route exact path="/Candidates/Junior" component={Junior}/>
-							<Route exact path="/Candidates/Middle" component={Middle}/>
-							<Route exact path="/Candidates/Senior" component={Senior}/>
-							<Route exact path="/Candidates/NoLevel" component={NoLevel}/>
+							<Route exact path="/Junior" component={Junior}/>
+							<Route exact path="/Middle" component={Middle}/>
+							<Route exact path="/Senior" component={Senior}/>
+							<Route exact path="/NoLevel" component={NoLevel}/>
 						</div>
 					</Router>
 				</Switch>

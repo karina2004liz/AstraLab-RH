@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import firebase from './Firebase';
 import "firebase/database";
 import fireConfig from './Firebase';
+import { Redirect, Link } from 'react-router-dom';
 
 
 
@@ -24,13 +24,15 @@ componentWillMount(){
 
     const prevNotes = this.state.candidates;
 
+
+
     this.db.on("child_added", snap => {
         prevNotes.push({
           id: snap.key,
           email: snap.val().email,
           levelenglish: snap.val().levelenglish,
           name: snap.val().name,
-          test: snap.val().test
+          test: snap.val().testlevel
         });
   
         this.setState({
@@ -68,12 +70,22 @@ componentWillMount(){
         return(
             <div>
                 {this.state.candidates.map(can =>{
+
+                    if(can.test == "junior")
+
                     return(
-                        <h1>{can.name}</h1>
+                        <div>
+                        <h1>Name: {can.name}</h1>
+                        <h2>Email: {can.email}</h2>
+                        <h2>English level: {can.levelenglish}</h2>
+                        <h3>Level Test: {can.test}</h3>
+                        </div>
                     )
                 })
 
                 }
+
+        <div><Link to="./Candidates">Volver</Link></div>
             </div>
         )
 

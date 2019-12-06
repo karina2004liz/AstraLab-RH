@@ -9,10 +9,10 @@ class Candidates extends Component {
        
             return (
                 <section className="Candidates">
-                    <div><Link to="./Junior">Junior</Link></div>
-                    <div><Link to="./Middle">Middle</Link></div>
-                    <div><Link to="./Senior">Senior</Link></div>
-                    <div><Link to="./NoLevel">No level</Link></div>
+                    <div><Link to="/Junior">Junior</Link></div>
+                    <div><Link to="/Middle">Middle</Link></div>
+                    <div><Link to="/Senior">Senior</Link></div>
+                    <div><Link to="/NoLevel">No level</Link></div>
                     <div><Link to="./">Volver</Link></div>
                 </section>
             )
