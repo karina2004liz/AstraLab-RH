@@ -1,17 +1,23 @@
 
 .Candidates {
-    margin-top: 20%;
-    display: grid;
+    margin: 20% auto auto auto;
+    width: 80%;
 }
 .Candidates > div {
-    background-color: white;
     margin: 2%;
-    width: 20%;
-    height: 2rem;
     padding-top: 2%;
+    display: inline-block;
+    width: 36%;
     border-radius: 3px;
     text-align: center;
-    display: inline-block;
     justify-self: center;
     font-family: 'Roboto', sans-serif;
+}
+.imgFilter{
+    height: 55%;
+    width: 55%;
+}
+.returnBtn{
+    background-color: white;
+    height: 3em;
 }

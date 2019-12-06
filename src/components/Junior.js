@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "firebase/database";
 import fireConfig from './Firebase';
 import { Redirect, Link } from 'react-router-dom';
-
+import JuniorCss from './Junior.css'
 
 
 class Junior extends Component{
@@ -71,20 +71,17 @@ componentWillMount(){
 
 
             <div>
-
-
-            <table>
-                <thead>
-                    <tr>
-                            <th>Name</th>
-                            <th>English Level</th>
-                            <th>Email</th>
-                            <th>Test Level</th>
-                    </tr>
-
-                </thead>
-            </table>
-
+              <table class="flat-table">
+                <tbody>
+                  <tr>
+                    <th>Name</th>
+                    <th>English Level</th>
+                    <th>Email</th>
+                    <th>Test Level</th>
+                  </tr>
+                  </tbody>
+              </table>
+            
 
                 {this.state.candidates.map(can =>{
 
@@ -105,7 +102,7 @@ componentWillMount(){
 
                 }
 
-        <div><Link to="./Candidates">Volver</Link></div>
+        <div><Link to="./Candidates">Return</Link></div>
             </div>
         )
 

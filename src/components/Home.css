@@ -6,6 +6,10 @@ body{
     margin-top: 20%;
     display: grid;
 }
+.home > img{
+    margin-left: auto;
+    margin-right: auto;
+}
 .home > div {
     background-color: white;
     margin: 2%;
@@ -18,4 +22,7 @@ body{
     justify-self: center;
     font-family: 'Roboto', sans-serif;
 }
-
+.tsh{
+    width: 10em;
+    height: 10em;
+}
