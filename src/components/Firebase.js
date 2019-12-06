@@ -1,4 +1,4 @@
-import * as firebase from 'firebase'
+import firebase from 'firebase'
 
 const config = {
 
@@ -12,8 +12,8 @@ const config = {
  
 };
 
-if (!firebase.apps.length) {
-	firebase.initializeApp(config)
-}
 
-export default firebase;
+const fireConfig =firebase.initializeApp(config)
+
+
+export default fireConfig;
