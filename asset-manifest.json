@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/astralabrh/static/css/main.f2058bb0.chunk.css",
+    "main.js": "/astralabrh/static/js/main.1df29719.chunk.js",
+    "main.js.map": "/astralabrh/static/js/main.1df29719.chunk.js.map",
+    "runtime-main.js": "/astralabrh/static/js/runtime-main.ba83d41f.js",
+    "runtime-main.js.map": "/astralabrh/static/js/runtime-main.ba83d41f.js.map",
+    "static/js/2.09a9c403.chunk.js": "/astralabrh/static/js/2.09a9c403.chunk.js",
+    "static/js/2.09a9c403.chunk.js.map": "/astralabrh/static/js/2.09a9c403.chunk.js.map",
+    "index.html": "/astralabrh/index.html",
+    "precache-manifest.a5fa589c5fb24e9228f955433d87d18b.js": "/astralabrh/precache-manifest.a5fa589c5fb24e9228f955433d87d18b.js",
+    "service-worker.js": "/astralabrh/service-worker.js",
+    "static/css/main.f2058bb0.chunk.css.map": "/astralabrh/static/css/main.f2058bb0.chunk.css.map",
+    "static/js/2.09a9c403.chunk.js.LICENSE": "/astralabrh/static/js/2.09a9c403.chunk.js.LICENSE",
+    "static/media/astraLogo.png": "/astralabrh/static/media/astraLogo.45b0848e.png",
+    "static/media/consultorIcon.png": "/astralabrh/static/media/consultorIcon.27094f86.png",
+    "static/media/hrLogo.png": "/astralabrh/static/media/hrLogo.16a42b4a.png",
+    "static/media/indeedIcon.png": "/astralabrh/static/media/indeedIcon.f4f56314.png",
+    "static/media/juniorIcon.png": "/astralabrh/static/media/juniorIcon.bfab2581.png",
+    "static/media/noLevelIcon.png": "/astralabrh/static/media/noLevelIcon.a64b9c9d.png",
+    "static/media/seniorIcon.png": "/astralabrh/static/media/seniorIcon.67fb988d.png",
+    "static/media/tshLogo.png": "/astralabrh/static/media/tshLogo.6bcb4cf4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba83d41f.js",
+    "static/js/2.09a9c403.chunk.js",
+    "static/css/main.f2058bb0.chunk.css",
+    "static/js/main.1df29719.chunk.js"
+  ]
+}
