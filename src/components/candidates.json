@@ -1,0 +1,53 @@
+{
+    "Candidates":[
+    {   "name": "Heriberto Gonzalez",
+        "email":"unmailfake@gmail.com",
+        "levelenglish":"basic",
+        "testlevel":[
+           "junior" 
+        ]   
+    },
+    {   "name": "Joaquin Gonzalez",
+        "email":"unmailfake@gmail.com",
+        "levelenglish":"basic",
+        "testlevel":[
+            "senior"
+        ] },
+        {"name": "Andrea Magallanes",
+        "email":"unmailfake@gmail.com",
+        "levelenglish":"middle",
+        "testlevel":[
+            "middle"
+        ] },
+    {   "name": "Karina Cabrera",
+        "email":"unmailfake@gmail.com",
+        "levelenglish":"middle",
+        "testlevel":[
+            "junior"
+        ] },
+    {   "name": "Denisse Peralta",
+        "email":"unmailfake@gmail.com",
+        "levelenglish":"senior",
+        "testlevel":[
+            "senior"
+        ] },
+    {   "name": "Bren Vielmas",
+        "email":"unmailfake@gmail.com",
+        "levelenglish":"senior",
+        "testlevel":[
+            "junior"
+        ] },
+    {   "name": "Karla Alvarez",
+        "email":"unmailfake@gmail.com",
+        "levelenglish":"senior",
+        "testlevel":[
+            "middle"
+        ] },
+    {   "name": "Gloria Ramirez",
+        "email":"unmailfake@gmail.com",
+        "levelenglish":"middle",
+        "testlevel":[
+            "senior"
+        ]}
+]
+}
