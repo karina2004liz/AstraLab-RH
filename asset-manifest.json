@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/astralabrh/static/css/main.f2058bb0.chunk.css",
-    "main.js": "/astralabrh/static/js/main.1df29719.chunk.js",
-    "main.js.map": "/astralabrh/static/js/main.1df29719.chunk.js.map",
-    "runtime-main.js": "/astralabrh/static/js/runtime-main.ba83d41f.js",
-    "runtime-main.js.map": "/astralabrh/static/js/runtime-main.ba83d41f.js.map",
-    "static/js/2.09a9c403.chunk.js": "/astralabrh/static/js/2.09a9c403.chunk.js",
-    "static/js/2.09a9c403.chunk.js.map": "/astralabrh/static/js/2.09a9c403.chunk.js.map",
-    "index.html": "/astralabrh/index.html",
-    "precache-manifest.a5fa589c5fb24e9228f955433d87d18b.js": "/astralabrh/precache-manifest.a5fa589c5fb24e9228f955433d87d18b.js",
-    "service-worker.js": "/astralabrh/service-worker.js",
-    "static/css/main.f2058bb0.chunk.css.map": "/astralabrh/static/css/main.f2058bb0.chunk.css.map",
-    "static/js/2.09a9c403.chunk.js.LICENSE": "/astralabrh/static/js/2.09a9c403.chunk.js.LICENSE",
-    "static/media/astraLogo.png": "/astralabrh/static/media/astraLogo.45b0848e.png",
-    "static/media/consultorIcon.png": "/astralabrh/static/media/consultorIcon.27094f86.png",
-    "static/media/hrLogo.png": "/astralabrh/static/media/hrLogo.16a42b4a.png",
-    "static/media/indeedIcon.png": "/astralabrh/static/media/indeedIcon.f4f56314.png",
-    "static/media/juniorIcon.png": "/astralabrh/static/media/juniorIcon.bfab2581.png",
-    "static/media/noLevelIcon.png": "/astralabrh/static/media/noLevelIcon.a64b9c9d.png",
-    "static/media/seniorIcon.png": "/astralabrh/static/media/seniorIcon.67fb988d.png",
-    "static/media/tshLogo.png": "/astralabrh/static/media/tshLogo.6bcb4cf4.png"
+    "main.css": "/AstraLab-RH/static/css/main.f2058bb0.chunk.css",
+    "main.js": "/AstraLab-RH/static/js/main.c2966c61.chunk.js",
+    "main.js.map": "/AstraLab-RH/static/js/main.c2966c61.chunk.js.map",
+    "runtime-main.js": "/AstraLab-RH/static/js/runtime-main.2240a3cc.js",
+    "runtime-main.js.map": "/AstraLab-RH/static/js/runtime-main.2240a3cc.js.map",
+    "static/js/2.7d996791.chunk.js": "/AstraLab-RH/static/js/2.7d996791.chunk.js",
+    "static/js/2.7d996791.chunk.js.map": "/AstraLab-RH/static/js/2.7d996791.chunk.js.map",
+    "index.html": "/AstraLab-RH/index.html",
+    "precache-manifest.be393a73c53fc5b762946d0afc1447f9.js": "/AstraLab-RH/precache-manifest.be393a73c53fc5b762946d0afc1447f9.js",
+    "service-worker.js": "/AstraLab-RH/service-worker.js",
+    "static/css/main.f2058bb0.chunk.css.map": "/AstraLab-RH/static/css/main.f2058bb0.chunk.css.map",
+    "static/js/2.7d996791.chunk.js.LICENSE": "/AstraLab-RH/static/js/2.7d996791.chunk.js.LICENSE",
+    "static/media/astraLogo.png": "/AstraLab-RH/static/media/astraLogo.45b0848e.png",
+    "static/media/consultorIcon.png": "/AstraLab-RH/static/media/consultorIcon.27094f86.png",
+    "static/media/hrLogo.png": "/AstraLab-RH/static/media/hrLogo.16a42b4a.png",
+    "static/media/indeedIcon.png": "/AstraLab-RH/static/media/indeedIcon.f4f56314.png",
+    "static/media/juniorIcon.png": "/AstraLab-RH/static/media/juniorIcon.bfab2581.png",
+    "static/media/noLevelIcon.png": "/AstraLab-RH/static/media/noLevelIcon.a64b9c9d.png",
+    "static/media/seniorIcon.png": "/AstraLab-RH/static/media/seniorIcon.67fb988d.png",
+    "static/media/tshLogo.png": "/AstraLab-RH/static/media/tshLogo.6bcb4cf4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba83d41f.js",
-    "static/js/2.09a9c403.chunk.js",
+    "static/js/runtime-main.2240a3cc.js",
+    "static/js/2.7d996791.chunk.js",
     "static/css/main.f2058bb0.chunk.css",
-    "static/js/main.1df29719.chunk.js"
+    "static/js/main.c2966c61.chunk.js"
   ]
 }
