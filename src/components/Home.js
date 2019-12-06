@@ -7,9 +7,11 @@ class Home extends Component {
 	render () {
 		return (
             <section className="home">
-				<img src={hrLogo}></img>
-				<div className="link"><Link to="./Vacancy">New vacancy</Link></div>
-				<div className="link"><Link to="./Candidates">Candidates</Link></div>
+				<img className="hrLogo" src={hrLogo}></img>
+				<div className="btnContainer">
+					<Link to="./Vacancy"><button>NEW VACANCY</button></Link>
+					<Link to="./Candidates"><button>CANDIDATES</button></Link>
+				</div>
 				<img className="tsh" src={TSH}></img>	
 			</section>
 		)
