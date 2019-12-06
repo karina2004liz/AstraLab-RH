@@ -113,7 +113,10 @@ componentWillMount(){
         
             </div>
 
-            <div><Link to="./Candidates">Return</Link></div>
+            <div className="btnRtnDiv" ><Link to="./Candidates">
+              
+            <button className = "btnRtnDataFilter">Return</button>
+              </Link></div>
 
             </div>
         )
