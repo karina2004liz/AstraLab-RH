@@ -2,74 +2,74 @@
     "Candidates":[
     {   "name": "Heriberto Gonzalez",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"basic",
+        "levelenglish":"Basic",
         "testlevel":[
            "junior" 
         ]   
     },
     {   "name": "Joaquin Gonzalez",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"basic",
+        "levelenglish":"Basic",
         "testlevel":[
             "senior"
         ] },
         {"name": "Andrea Magallanes",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"middle",
+        "levelenglish":"Intermediate",
         "testlevel":[
             "middle"
         ] },
     {   "name": "Karina Cabrera",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"middle",
+        "levelenglish":"Intermediate",
         "testlevel":[
             "junior"
         ] },
     {   "name": "Denisse Peralta",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"senior",
+        "levelenglish":"Advanced",
         "testlevel":[
             "senior"
         ] },
     {   "name": "Bren Vielmas",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"senior",
+        "levelenglish":"Advanced",
         "testlevel":[
             "junior"
         ] },
     {   "name": "Karla Alvarez",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"senior",
+        "levelenglish":"Advanced",
         "testlevel":[
             "middle"
         ] },
     {   "name": "Gloria Ramirez",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"middle",
+        "levelenglish":"Intermediate",
         "testlevel":[
             "senior"
         ]},
     {   "name": "Olimpo Barba",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"middle",
+        "levelenglish":"Intermediate",
         "testlevel":[
             "senior"
         ]},
     {   "name": "Brian Ramirez",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"middle",
+        "levelenglish":"Intermediate",
         "testlevel":[
             "no level"
         ]},
     {   "name": "Omar Castillo",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"middle",
+        "levelenglish":"Intermediate",
         "testlevel":[
             "no level"
         ]},
     {   "name": "Abel Mora",
         "email":"unmailfake@gmail.com",
-        "levelenglish":"middle",
+        "levelenglish":"Intermediate",
         "testlevel":[
             "no level"
         ]}

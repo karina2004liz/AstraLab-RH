@@ -14,7 +14,7 @@
     width: 48%;
     margin-top: 30px;
 }
-button {
+.homeBtn {
     background-color: white;
     border: none;
     border-radius: 7px;
