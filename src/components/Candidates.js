@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import firebase from './Firebase';
 import { Redirect, Link } from 'react-router-dom';
-
+import CandidatesCss from './Candidates.css'
 
 class Candidates extends Component {
    
     render() {
        
             return (
-                <section className="Vacancy">
-                    <Link to="./Junior">Junior</Link>
-                    <Link to="./Middle">Middle</Link>
-                    <Link to="./Senior">Senior</Link>
-                    <Link to="./NoLevel">No level</Link>
-                    <Link to="./">Volver</Link>
+                <section className="Candidates">
+                    <div><Link to="./Junior">Junior</Link></div>
+                    <div><Link to="./Middle">Middle</Link></div>
+                    <div><Link to="./Senior">Senior</Link></div>
+                    <div><Link to="./NoLevel">No level</Link></div>
+                    <div><Link to="./">Volver</Link></div>
                 </section>
             )
         }       

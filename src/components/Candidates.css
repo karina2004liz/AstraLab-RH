@@ -1,0 +1,17 @@
+
+.Candidates {
+    margin-top: 20%;
+    display: grid;
+}
+.Candidates > div {
+    background-color: white;
+    margin: 2%;
+    width: 20%;
+    height: 2rem;
+    padding-top: 2%;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    justify-self: center;
+    font-family: 'Roboto', sans-serif;
+}
